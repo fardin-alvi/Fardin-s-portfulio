@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='md:w-[40%] md:mr-10'>
                 <img src={logo} className='w-24 mx-auto md:mx-0' alt="" />
                 <p className='text-center md:text-start'>Md Fardin Islam</p>
-                <p className='text-center md:text-start'>frontend Web developer</p>
+                <p className='text-center md:text-start'>Frontend Web developer</p>
             </div>
             <nav className='pt-3'>
                 <div className='flex gap-x-6'>

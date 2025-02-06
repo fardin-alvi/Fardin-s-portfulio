@@ -3,8 +3,8 @@ import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa6';
 import myimage from '../assets/myImage.jpeg'
 const Aboutme = () => {
     return (
-        <div id='about' className='min-h-[400px] bg-[#272828] p-5 md:p-20'>
-            <div className='flex p-16 md:justify-between md:gap-x-8 lg:justify-center items-center bg-base-100 bg-opacity-75 rounded-lg'>
+        <div id='about' className='min-h-[400px] bg-[#1e1e1e] p-5 md:p-20'>
+            <div className='flex p-16 md:justify-between md:gap-x-8 lg:justify-center items-center bg-white bg-opacity-20 rounded-lg'>
                 <div className='md:w-[40%] hidden md:flex'>
                     <div className='relative flex justify-center'>
                         <div className="absolute top-4 left-4 w-72 h-96 border-4 border-orange-500 rounded-tl-3xl rounded-br-3xl"></div>
@@ -15,7 +15,7 @@ const Aboutme = () => {
                     <div className="p-6">
                         <h2 className="text-4xl font-bold text-gray-800">ABOUT <span className='text-orange-500'>ME</span></h2>
                         <h3 className="text-lg text-pink-600 mt-4">Md Fardin Islam - Frontend Web Developer</h3>
-                        <p className="text-gray-600 mt-4">
+                        <p className="text-white mt-4">
                             Driven by passion and guided by determination, I embarked on my programming journey to turn my love for technology into a skill. Overcoming challenges along the way, I have worked tirelessly to grow not only learn but also my commitment to continuous improvement and creativity. <br />
                             Beyond coding, I find joy in traveling and connecting with diverse cultures, as well as engaging in voluntary work that enriches my perspective and gives back to the community.
                         </p>

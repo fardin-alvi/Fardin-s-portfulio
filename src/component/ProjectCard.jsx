@@ -7,7 +7,7 @@ const ProjectCard = ({project}) => {
         <div className="max-w-sm mx-auto border border-gray-100 rounded-lg shadow-md overflow-hidden group">
             <img
                 className="h-64 w-full object-cover group-hover:scale-110"
-                src={project.image}
+                src={project.image[0]}
                 alt='project'
             />
             <div className="px-5 py-3 flex bg-transparent  gap-y-2 flex-col justify-start items-start">
