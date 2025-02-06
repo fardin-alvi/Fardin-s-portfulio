@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from '../assets/logo/mainLogo.png'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
+
 
 const Navbar = () => {
 
     const links = <>
-        <NavLink to='/' >Home</NavLink>
-        <a href='#project'>Projects</a>
-        <a href='#about'>About</a>
-        <a href='#contact'>Contact</a>
+        <Link to='/' smooth={true} duration={500} offset={-50} >Home</Link>
+        <Link to='project' smooth={true} duration={500} offset={-50}>Projects</Link>
+        <Link to='about' smooth={true} duration={500} offset={-50}>About</Link>
+        <Link to='contact' smooth={true} duration={500} offset={-50}>Contact</Link>
     </>
     return (
         <div className="navbar sticky top-0 z-50 bg-black bg-opacity-85 px-5">
@@ -30,7 +31,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2  shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 cursor-pointer shadow">
                         {links}
                     </ul>
                 </div>
@@ -39,7 +40,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="md:navbar-end hidden md:mr-4 lg:flex">
-                <ul className="menu menu-horizontal space-x-5 text-white px-1">
+                <ul className="menu menu-horizontal space-x-5 text-white px-1 cursor-pointer">
                     {links}
                 </ul>
             </div>
